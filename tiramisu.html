@@ -5,6 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiramisu </title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+        }
+        .p10{
+            padding: 10px;
+        }
+
+        .b2r{
+            border: 2px solid red;
+            border-style: dotted;
+
+        }
+
+        .bgray{
+            background-color: gray;
+        }
+        
+        a{
+            color: red;
+        }
+
+    </style>
 </head>
 <body>
 
@@ -62,8 +86,8 @@
             outrageously indulgent chocolate soufflé cake .
             </p>
             
-           <fieldset>
-            <legend> <h2> Ingredients  </h2></legend>
+           <fieldset class="bgray b2r">
+            <legend> <h2 class="p10"> Ingredients  </h2></legend>
             <ul>
             <li>1 and 1/4 cups ( 300ml ) very strongly prepared espresso , warm or room temperature
             </li>
@@ -125,13 +149,12 @@
     
     <tr>
         <td colspan="3">
-            
-       <h1>Order here!</h1>
-       <fieldset>
+            <h1 class="">Order here!</h1>
+       <fieldset class="bgray">
          <legend> <h3>Personal Information</h3></legend>
        <form>
        <label>Name  & Surname:</label> 
-       <br>  
+       <br> 
         <input type="text" name="firstname" placeholder= "Name Surname"  required /> 
         <br><br>
         <label>Gender:</label> 
@@ -139,17 +162,17 @@
           <input type="radio" value="Feale" name="gender" required> Female 
           <input type="radio" value="Male" name="gender" required> Male  
     <br><br>
+   
                 <label >Your Birthday</label>
                 <br>
                 <input type="date" name="birth" required>
                 <br> <br>
                 <label for="phone">Enter a phone number:</label> <br>
                 <input type="tel" id="phone" name="phone" placeholder="045/044/046" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
-                    </datalist>
+                </datalist>
                 </form>
             </fieldset>
-
-            <fieldset>
+            <fieldset class="bgray">
                 <legend><h3>Shipping Adress</h3></legend>
                 <form>
                 <label for="Contry">Country/Region</label> <br>
@@ -172,11 +195,9 @@
                 <input type="text" placeholder="City" required>
                 <br>
                 <br>
-
             </form>
             </fieldset>
-
-            <fieldset>
+            <fieldset class="bgray">
                 <legend><h3>Your Preferences</h3></legend>
                 <form>
                 <label for="optsions">What kind of material do you want for your box?</label><br>
@@ -223,7 +244,7 @@
                     <br><br>
 
                     <p>Here is our Location if someone want to visit us:</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8227008715608!2d107.62767851522561!3d-6.911791569567823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e70bcc99bb2b%3A0xe7dd39e0b82ddc5b!2sTiramisusu%20by%20Chocomory%2C%20Anggrek!5e0!3m2!1sen!2s!4v1663888037138!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8227008715608!2d107.62767851522561!3d-6.911791569567823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e70bcc99bb2b%3A0xe7dd39e0b82ddc5b!2sTiramisusu%20by%20Chocomory%2C%20Anggrek!5e0!3m2!1sen!2s!4v1663888037138!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </td>
             </tr>
     
